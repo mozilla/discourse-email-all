@@ -1,0 +1,3 @@
+plugins:
+  email_all_enabled:
+    default: false

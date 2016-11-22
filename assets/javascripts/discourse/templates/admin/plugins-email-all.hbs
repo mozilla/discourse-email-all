@@ -1,0 +1,10 @@
+<div class='email-template'>
+  <label>{{i18n "admin.customize.email_templates.subject"}}</label>
+  {{input value=subject}}
+  <br>
+
+  <label>{{i18n "admin.customize.email_templates.body"}}</label>
+  {{d-editor value=body}}
+
+  <button {{action 'send'}} class='btn btn-primary'>Send to All</button>
+</div>
