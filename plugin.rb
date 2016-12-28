@@ -1,6 +1,6 @@
 # name: email-all
 # about: Allow an admin to email everybody
-# version: 0.0.1
+# version: 0.0.2
 # author: Leo McArdle
 # url: https://github.com/LeoMcA/discourse-email-all
 

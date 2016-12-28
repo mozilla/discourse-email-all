@@ -9,6 +9,10 @@ export default Ember.Controller.extend({
           subject: this.get('subject'),
           body: this.get('body')
         }
+      }).then(() => {
+        alert('Success! Jobs enqueued, emails being sent')
+      }).catch(() => {
+        alert('Error')
       })
     }
   }
